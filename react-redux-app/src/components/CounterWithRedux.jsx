@@ -3,8 +3,9 @@ import { useDispatch, useSelector } from "react-redux";
 import { decrement, increment, reset } from "../services/actions";
 
 const CounterWithRedux = () => {
-  const counter = useSelector((state) => state.counter);
+  const counter = useSelector((state) => state.counter.count);
   const dispatch = useDispatch();
+  console.log(counter);
   return (
     <div>
       <h1>CounterWithRedux {counter}</h1>
