@@ -1,11 +1,12 @@
 import { useState } from "react";
-
 import "./App.css";
+import Home from "./components/Home";
+import HomeContainer from "./containers/HomeContainer";
 
 function App() {
   return (
     <>
-      <h1>React - Redux App</h1>
+      <HomeContainer />
     </>
   );
 }
