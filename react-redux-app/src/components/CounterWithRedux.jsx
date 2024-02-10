@@ -8,7 +8,7 @@ const CounterWithRedux = () => {
   return (
     <div>
       <h1>CounterWithRedux {counter}</h1>
-      <button onClick={() => dispatch(increment())}>Increase</button>
+      <button onClick={() => dispatch(increment())}>Increase 5</button>
       <button onClick={() => dispatch(reset())}>Reset</button>
       <button onClick={() => dispatch(decrement())}>Decrease</button>
     </div>

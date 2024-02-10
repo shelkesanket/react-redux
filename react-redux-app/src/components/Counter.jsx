@@ -3,7 +3,7 @@ import React, { useState } from "react";
 const Counter = () => {
   const [count, setCount] = useState(0);
   const handleIncrement = () => {
-    setCount(count + 1);
+    setCount(count + 5);
   };
   const handleDecrement = () => {
     if (count > 0) setCount(count - 1);
@@ -14,7 +14,7 @@ const Counter = () => {
   return (
     <div>
       <h1>Counter app with useState {count}</h1>
-      <button onClick={handleIncrement}>Increment</button>
+      <button onClick={handleIncrement}>Increment 5</button>
       <button onClick={handleDecrement}>Decrement</button>
       <button onClick={handleReset}>Reset</button>
     </div>
