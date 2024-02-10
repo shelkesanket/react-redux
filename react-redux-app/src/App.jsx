@@ -1,12 +1,11 @@
 import { useState } from "react";
 import "./App.css";
-import Home from "./components/Home";
-import HomeContainer from "./containers/HomeContainer";
+import Counter from "./components/Counter";
 
 function App() {
   return (
     <>
-      <HomeContainer />
+      <Counter />
     </>
   );
 }
